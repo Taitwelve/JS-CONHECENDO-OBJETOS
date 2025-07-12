@@ -7,3 +7,19 @@ const pet = {
 
 console.log(pet.dataDeNascimento);
 console.log(pet["brinquedoFavorito"]);
+
+//___________________________________________________________________________________
+
+const objPersonagem = {
+  nome: "Gandalf",
+  classe: "mago",
+  nivel: "20",
+  aliado: {
+    nome: "Saruman",
+    classe: "mago",
+  },
+  status: "desaparecido",
+};
+console.log(objPersonagem)
+delete objPersonagem.aliado 
+console.log(objPersonagem)
