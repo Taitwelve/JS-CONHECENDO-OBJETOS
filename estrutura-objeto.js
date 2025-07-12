@@ -6,3 +6,4 @@ const estudante = {
 }
 
 console.log(estudante);
+console.log(estudante.nome);
