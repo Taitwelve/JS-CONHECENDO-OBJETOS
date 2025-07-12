@@ -12,3 +12,4 @@ console.log(`Os três primeiros números do CPF do estudante são ${estudante.cp
 
 
 //O objeto é sempre composto por chave:valor (Key:Value)
+// O método substring só pode ser usado em strings, então é importante garantir que o valor de cpf seja uma string ou convertê-lo antes de usar o método.
