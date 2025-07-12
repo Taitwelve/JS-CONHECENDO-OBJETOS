@@ -6,3 +6,9 @@ const estudante = {
 }
 estudante.estadoCivil = 'Solteiro'; 
 console.log(estudante.estadoCivil); 
+console.log(estudante);
+
+
+
+
+// Um objeot não é ordenado, então não podemos garantir a ordem de exibição das propriedades
