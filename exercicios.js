@@ -24,3 +24,9 @@ console.log(objPersonagem)
 delete objPersonagem.aliado
 delete objPersonagem["status"] 
 console.log(objPersonagem)
+
+const delProp = delete objPersonagem.aliado
+const delPropInexistente = delete objPersonagem["endereco"]
+
+console.log(delProp) 
+console.log(delPropInexistente)
