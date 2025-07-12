@@ -7,3 +7,5 @@ const estudante = {
 
 console.log(estudante);
 console.log(estudante.nome);
+
+//O objeto é sempre composto por chave:valor
