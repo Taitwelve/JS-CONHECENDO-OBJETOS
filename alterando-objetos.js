@@ -8,6 +8,9 @@ estudante.estadoCivil = 'Solteiro';
 console.log(estudante.estadoCivil); 
 console.log(estudante);
 
+estudante.idade = 31;
+console.log(estudante);
+
 
 
 
