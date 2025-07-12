@@ -20,13 +20,29 @@ const objPersonagem = {
   },
   status: "desaparecido",
 };
-console.log(objPersonagem)
-delete objPersonagem.aliado
-delete objPersonagem["status"] 
-console.log(objPersonagem)
+console.log(objPersonagem);
+delete objPersonagem.aliado;
+delete objPersonagem["status"];
+console.log(objPersonagem);
 
-const delProp = delete objPersonagem.aliado
-const delPropInexistente = delete objPersonagem["endereco"]
+const delProp = delete objPersonagem.aliado;
+const delPropInexistente = delete objPersonagem["endereco"];
 
-console.log(delProp) 
-console.log(delPropInexistente)
+console.log(delProp);
+console.log(delPropInexistente);
+
+//____________________________________________________________________________________
+
+const pessoa = {
+  nome: "Bruce Banner",
+  dataNascimento: "25/01/1980",
+  carteiraIdentidade: "997776-X",
+  email: "profbanner@email.com",
+  telefone: "+552877776666",
+  cidade: "Cachoeiro de Itapemirim",
+  estado: "ES",
+};
+
+pessoa.seguroSocial = "123-45-6789";
+pessoa.cpf = "12345678900";
+console.log(`CPF: ${pessoa.cpf.substring(0, 4)}... | Carteira de Identidade: ${pessoa.carteiraIdentidade.substring(0, 4)}...`);
