@@ -21,5 +21,6 @@ const objPersonagem = {
   status: "desaparecido",
 };
 console.log(objPersonagem)
-delete objPersonagem.aliado 
+delete objPersonagem.aliado
+delete objPersonagem["status"] 
 console.log(objPersonagem)
