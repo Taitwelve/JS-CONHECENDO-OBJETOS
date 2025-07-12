@@ -10,6 +10,7 @@ estudante.nome
 function exibeInfoEstudante(objEstudante, infoEstudante) {
     return objEstudante[infoEstudante];
 }
-
+console.log(estudante['nome']);
+console.log(estudante['cpf']);
 console.log (exibeInfoEstudante(estudante, 'nome'));
 console.log (exibeInfoEstudante(estudante, 'cpf'));
