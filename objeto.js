@@ -8,3 +8,6 @@ const objetoPessoa = {
     idade: 30,
     altura: 1.75,
     peso: 70 }
+
+console.log(objetoPessoa.nome);    
+console.log(objetoPessoa);
