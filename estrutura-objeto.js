@@ -7,5 +7,6 @@ const estudante = {
 
 console.log(estudante);
 console.log(estudante.nome);
+console.log(`O nome do estudante é ${estudante.nome} e ele tem ${estudante.idade} anos.`);
 
 //O objeto é sempre composto por chave:valor
