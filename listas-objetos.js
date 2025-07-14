@@ -24,8 +24,8 @@ estudante.endereco.push({
     estado: "ES"
 })
 
-// console.log(estudante.endereco);
-// console.log(estudante.endereco[1]);
+console.log(estudante.endereco);
+console.log(estudante.endereco[1]);
 
 const listaEnderecoComComplemento = estudante.endereco.filter(endereco => endereco.complemento);
 
