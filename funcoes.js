@@ -14,3 +14,4 @@ const estudante = {
 
 console.log(estudante.estaAprovado(7.0)); 
 
+//Método é uma função executada dentro do contexto de um objeto
