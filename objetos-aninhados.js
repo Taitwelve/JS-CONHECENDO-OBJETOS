@@ -16,3 +16,4 @@ estudante.endereco = {
 
 console.log(estudante);
 console.log(estudante.endereco);
+console.log(estudante.endereco.rua);
