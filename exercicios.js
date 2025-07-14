@@ -73,6 +73,44 @@ function mostrarInfoPessoa(pessoinha) {
     console.log(`Cidade: ${pessoinha.endereco.cidade}`);
     console.log(`Estado: ${pessoinha.endereco.estado}`);
 }
-
-// Chamada da função mostrarInfoPessoa
 mostrarInfoPessoa(pessoinha);
+
+//____________________________________________________________________________________
+
+const listaPessoas = [{
+  nome: "Alice",
+  idade: 30,
+  cidade: "São Paulo",
+}, {
+  nome: "Bob",
+  idade: 25,
+  cidade: "Rio de Janeiro",
+}, {
+  nome: "Charlie",
+  idade: 35,
+  cidade: "Belo Horizonte",
+}]
+
+function mostrarListaPessoas(pessoas) {
+    console.log("Lista de Pessoas:");
+    pessoas.forEach(pessoa => {
+        console.log(`Nome: ${pessoa.nome}, Idade: ${pessoa.idade}, Cidade: ${pessoa.cidade}`);
+    });
+}
+
+function filtrarPorCidade(pessoas, cidade) {
+    return pessoas.filter(pessoa => pessoa.cidade === cidade);
+}
+
+mostrarListaPessoas(listaPessoas);
+
+listaPessoas.push({ nome: "Ana", idade: 28, cidade: "Salvador" });
+
+mostrarListaPessoas(listaPessoas);
+
+const pessoasSalvador = filtrarPorCidade(listaPessoas, "Salvador");
+console.log("Pessoas em Salvador:");
+console.log(pessoasSalvador);
+
+//____________________________________________________________________________________
+
