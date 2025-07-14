@@ -49,16 +49,3 @@ console.log(`CPF: ${pessoa.cpf.substring(0, 4)}... | Carteira de Identidade: ${p
 
 //____________________________________________________________________________________
 
-const pessoinha = {
-  nome: "Tony Stark",
-  idade: 45,
-  solteiro: true,
-  hobbies: ["tecnologia", "invenções", "filantropia"],
-  mostrarInfoPessoinha: function (pessoinha) {
-    return `Nome: ${pessoinha.nome}, Idade: ${pessoinha.idade}, Solteiro: ${pessoinha.solteiro}, Hobbies: ${pessoinha.hobbies.join(", ")}`;
-  }
-};
-
-console.log(pessoinha.mostrarInfoPessoinha(pessoinha));
-
-//____________________________________________________________________________________
