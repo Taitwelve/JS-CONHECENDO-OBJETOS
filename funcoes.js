@@ -6,10 +6,7 @@ const estudante = {
     bolsista: true,
     telefones: ["+55 27 99999-9999", "+55 27 88888-8888"],
     media: 8.5,
-    estaAprovado: function(mediaBase) 
-    {
-        return this.media >= mediaBase ? true : false;
-    }
+    estaAprovado: (mediaBase) => this.media >= mediaBase ? true : false
 }
 
 console.log(estudante.estaAprovado(7.0)); 
