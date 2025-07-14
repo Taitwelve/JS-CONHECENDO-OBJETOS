@@ -15,3 +15,5 @@ const estudante = {
 console.log(estudante.estaAprovado(7.0)); 
 
 //Método é uma função executada dentro do contexto de um objeto
+
+//Ao trabalhar com objetos em Node.js, é crucial compreender o comportamento de this para garantir referências corretas. Arrow functions podem ser inadequadas em certos contextos, especialmente ao definir métodos de objetos. Em vez disso, opte por funções tradicionais ao criar métodos em objetos para garantir que this seja vinculado ao contexto apropriado, facilitando o acesso e manipulação de dados de forma consistente.
