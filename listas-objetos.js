@@ -8,6 +8,7 @@ const estudante = {
     endereco: [{
         rua: "Rua das Flores",
         numero: "123",
+        complemento: null,
         cidade: "Cachoeiro de Itapemirim",
         estado: "ES"
     }]
@@ -18,9 +19,14 @@ const estudante = {
 estudante.endereco.push({
     rua: "Avenida Brasil",
     numero: "456",
+    complemento: "Apto 101",
     cidade: "Vila Velha",
     estado: "ES"
 })
 
-console.log(estudante.endereco);
-console.log(estudante.endereco[1]);
+// console.log(estudante.endereco);
+// console.log(estudante.endereco[1]);
+
+const listaEnderecoComComplemento = estudante.endereco.filter(endereco => endereco.complemento);
+
+console.log(listaEnderecoComComplemento);
