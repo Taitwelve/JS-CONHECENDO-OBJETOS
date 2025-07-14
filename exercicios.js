@@ -49,3 +49,30 @@ console.log(`CPF: ${pessoa.cpf.substring(0, 4)}... | Carteira de Identidade: ${p
 
 //____________________________________________________________________________________
 
+// infoPessoa.js
+const pessoinha = {
+    nome: "Ana",
+    idade: 25,
+    solteiro: true,
+    hobbies: ["Leitura", "Caminhada", "Fotografia"],
+    endereco: {
+        rua: "Rua Principal",
+        cidade: "Cidade Feliz",
+        estado: "Estado Alegre"
+    }
+};
+
+function mostrarInfoPessoa(pessoinha) {
+    console.log("Informações da Pessoa:");
+    console.log(`Nome: ${pessoinha.nome} (Tipo: ${typeof pessoinha.nome})`);
+    console.log(`Idade: ${pessoinha.idade} anos (Tipo: ${typeof pessoinha.idade})`);
+    console.log(`Solteiro: ${pessoinha.solteiro} (Tipo: ${typeof pessoinha.solteiro})`);
+    console.log(`Hobbies: ${pessoinha.hobbies.join(", ")} (Tipo: ${typeof pessoinha.hobbies})`);
+    console.log("Endereço:");
+    console.log(`Rua: ${pessoinha.endereco.rua}`);
+    console.log(`Cidade: ${pessoinha.endereco.cidade}`);
+    console.log(`Estado: ${pessoinha.endereco.estado}`);
+}
+
+// Chamada da função mostrarInfoPessoa
+mostrarInfoPessoa(pessoinha);
