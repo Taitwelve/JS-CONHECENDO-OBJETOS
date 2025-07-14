@@ -14,5 +14,13 @@ const estudante = {
 }
 
 
+
+estudante.endereco.push({
+    rua: "Avenida Brasil",
+    numero: "456",
+    cidade: "Vila Velha",
+    estado: "ES"
+})
+
 console.log(estudante.endereco);
-console.log(estudante.endereco[0]);
+console.log(estudante.endereco[1]);
