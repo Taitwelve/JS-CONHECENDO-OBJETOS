@@ -46,3 +46,19 @@ const pessoa = {
 pessoa.seguroSocial = "123-45-6789";
 pessoa.cpf = "12345678900";
 console.log(`CPF: ${pessoa.cpf.substring(0, 4)}... | Carteira de Identidade: ${pessoa.carteiraIdentidade.substring(0, 4)}...`);
+
+//____________________________________________________________________________________
+
+const pessoinha = {
+  nome: "Tony Stark",
+  idade: 45,
+  solteiro: true,
+  hobbies: ["tecnologia", "invenções", "filantropia"],
+  mostrarInfoPessoinha: function (pessoinha) {
+    return `Nome: ${pessoinha.nome}, Idade: ${pessoinha.idade}, Solteiro: ${pessoinha.solteiro}, Hobbies: ${pessoinha.hobbies.join(", ")}`;
+  }
+};
+
+console.log(pessoinha.mostrarInfoPessoinha(pessoinha));
+
+//____________________________________________________________________________________
