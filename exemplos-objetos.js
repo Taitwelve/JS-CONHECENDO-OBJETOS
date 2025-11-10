@@ -16,3 +16,13 @@ const entradas = Object.entries(meusObjetos);
 
 console.log(entradas);
 
+
+//Object.assign(): usado para fusão e cópia de objetos. 
+//Este método permite combinar propriedades de diferentes objetos em um único objeto.
+
+const objetoOriginal = { a: 1, b: 2 };
+const objetoParaCopiar = { b: 3, c: 4 };
+
+const objetoFusionado = Object.assign({}, objetoOriginal, objetoParaCopiar);
+
+console.log(objetoFusionado);
